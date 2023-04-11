@@ -4,7 +4,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  color: #22acb6
+  color:#fff;
 }
 
 .header-title {
@@ -49,15 +49,16 @@ button {
   font-size: 16px;
   padding: 8px 12px;
   border: none;
-  border-radius: 4px;
-  background-color: #22acb6;
+  border-radius: 4px 4px  solid #000000;
+  background-color: #163746;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #1c898f;
+  background-color: #205770;
+  
 }
 
 /* Weather card css */
@@ -84,11 +85,7 @@ button:hover {
 .weather-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  background-color: #22acb6;
-}
-
-.is-today {
-  border: 2px solid #22acb6;
+  background-color: #3d98c2;
 }
 
 .selected-city {
